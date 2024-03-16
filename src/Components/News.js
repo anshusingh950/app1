@@ -66,7 +66,7 @@ export class News extends Component {
   }
   async updnews(){
     this.props.pro(10);
-    const url=`https://newsapi.org/v2/top-headlines?country=${this.props.cntry}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=1&pageSize=${this.props.pagesize}`;    
+    const url=`https://newsapi.org/v2/top-headlines?country=${this.props.cntry}&category=${this.props.category}&apiKey=41fe644ae6944589a09f5902b87bb718&page=1&pageSize=${this.props.pagesize}`;    
     this.props.pro(30);
 
     let data=await fetch(url);
